@@ -2,7 +2,7 @@ find_package(PythonLibs REQUIRED)
 include_directories(${PYTHON_INCLUDE_DIRS})
 
 add_executable(blink
-        blink.C
+        blink.c
         )
 
 # pull in common dependencies
